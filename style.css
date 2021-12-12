@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Medium.woff2') format('woff2'),
+        url('../fonts/OpenSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('../fonts/OpenSansCondensed-Bold.woff2') format('woff2'),
+        url('../fonts/OpenSansCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', 'Arial', sans-serif;
+}
+header{
+    display: flex;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    width: 497px;
+    height: 21px;
+    margin: 38px 114px 38px 114px;
+}
+.headerLogo{
+    width: 185px;
+    height: 50px;
+    margin: 24px 0px 24px 170px;
+}
+.navListLink{
+    text-decoration: none;
+    margin: 0px 32px 0px 0px ;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.headerButton{
+    padding: 12px 20px;
+    background-color: #DE2E54;
+    border-radius: 8px;
+    font-family: 'Open Sans Condensed';
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 25px 170px 25px 0px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.mainTitle{
+    background-color: #0EB4C1;
+    height: 533px;
+    display: flex;
+}
+.mainTitleHeading{
+    font-family: 'Open Sans Condensed';
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin: 120px 177px 16px 170px;
+}
+.mainTitleText{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin: 0px 237px 48px 170px;
+}
+.mainTitleButton{
+    width: 189px;
+    height: 47px;
+    background-color: #DE2E54;
+    border-radius: 8px;
+    font-family: 'Open Sans Condensed';
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    margin: 0px 488px 120px 170px;
+}
+.mainTitleImg{
+    margin: 29px 170px 0px 0px;
+}
+.servicesImg{
+    box-shadow: 0px 6px 14px -8px rgba(0, 107, 116, 0.3);
+    border-radius: 24px;
+    width: 200px;
+    height: 200px;
+}
+.servicesHeadingMain{
+    font-family: 'Open Sans Condensed';
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 120%;
+    color: #000000;
+    margin: 120px 653px 56px;
+}
+.servicesList{
+    list-style: none;
+   margin: 0px 288px ;
+}
+.servicesListItem{
+    display: flex;
+}
+.servicesHeading{
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    margin: 20px 0px 24px 64px;
+}
+.servicesText{
+    margin: 0px 0px 105px 64px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #444444;
+}
+.servicesButton{
+    width: 189px;
+    height: 47px;
+    background-color: #DE2E54;
+    border-radius: 8px;
+    font-family: 'Open Sans Condensed';
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    margin: 0px 625px 120px;
+}
+.registration{
+    height: 253px;
+    background-color: #0EB4C1;;
+}
+footer{
+    background-color: #222222;
+    display: flex;
+}
+
+.registrationButton{
+    width: 214px;
+    height: 42px;
+    display: inline;
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+    border-radius: 8px;
+    font-family: 'Open Sans Condensed';
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 120%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+}
+.registrationHeading{
+    text-align: center;
+    font-family: 'Open Sans Condensed';
+font-weight: bold;
+font-size: 36px;
+line-height: 120%;
+color: #FFFFFF;
+padding:  64px 0px 52px 0px;
+}
+.registrationDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 550px;
+    margin: auto;
+}
+.footerLogo{
+    width: 185px;
+    height: 50px;
+    margin: 24px 418px 24px 170px;
+}
+.footerNav{
+    list-style: none;
+    width: 497px;
+    height: 21px;
+    display: flex;
+    margin-block: 38px 38px;
+    justify-content: space-between;
+}
+.footerListLinks{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
